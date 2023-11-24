@@ -59,7 +59,7 @@ document.getElementById('btn4').onclick = function(){
 document.getElementById('btn5').onclick = function(){
     var num = document.getElementById('num').value;
     var donVi = num%10;
-    var hangChuc = Math.round(num/10);
+    var hangChuc = Math.floor(num/10);
     var tong = donVi + hangChuc;
 
     console.log(donVi)
